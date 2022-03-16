@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../font/GothamMedium.ttf');
+}
+
+@font-face {
+  font-family: 'GothamLight';
+  src: url('../font/GothamLight.ttf');
+}
+
+.App {
+  text-align: center;
+  font-family: GothamMedium;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+    min-height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 100%;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    color: black;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.side-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.alert-btn {
+  display: inline block;
+  margin-right: 20px;
+}
+
+.wallet-address {
+  font-family: GothamLight;
+  font-weight: 600;
+  color: #00643E;
+  margin-right: 10px;
+}
+
+.profile-btn {
+  display: inline block;
+  margin-right: 30px;
+}
+
+.updown-line {
+  content: "";
+  border-left: 1px solid lightgrey;
+  height:20px;
+  margin-right: 20px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
